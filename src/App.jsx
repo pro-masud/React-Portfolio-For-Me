@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { CiLight } from "react-icons/ci";
-import { FaBars } from "react-icons/fa6";
+import { FaFacebook, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaBars, FaCodepen, FaLinkedin } from "react-icons/fa6";
 import { IoIosSearch } from "react-icons/io";
+import { SiLeetcode } from "react-icons/si";
 import UserImage from "./assets/image/user.png";
 
 const App = () => {
@@ -39,21 +41,103 @@ const App = () => {
               )}
             </div>
 
-            <div className="user-profile">
+            <div className="user-profile ">
               {isSidebarOpen && (
                 <div className="flex flex-col items-center mt-8">
-                  <h2>Masud Rana</h2>
+                  <h2 className="text-3xl text-white font-bold">Masud Rana</h2>
                   <img
                     src={UserImage}
                     alt="User Avatar"
-                    className="rounded-full mb-4 w-60 h-60 object-cover"
+                    className="rounded-full mb-4 w-60 h-60 object-cover mt-5"
                   />
-                  <p className="text-primary-ur text-sm">
+                  <p className="text-white font-medium text-sm">
                     Hi, My name is Masud Rana. I'm a WordPress Developer.
                     Welcome to my Personal Website
                   </p>
+                  <div className="flex items-center justify-center gap-2">
+                    <a
+                      href="https://github.com/pro-masud"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white bg-secondary-ur p-3 rounded-full mt-4 hover:bg-white transition-colors hover:text-secondary-ur"
+                    >
+                      <FaGithub fontSize="20px" />
+                    </a>
+
+                    <a
+                      href="https://www.linkedin.com/in/masud-rana-574a7820b/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white bg-secondary-ur p-3 rounded-full mt-4 hover:bg-white transition-colors hover:text-secondary-ur"
+                    >
+                      <FaLinkedin fontSize="20px" />
+                    </a>
+
+                    <a
+                      href="https://leetcode.com/u/promasudbd/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white bg-secondary-ur p-3 rounded-full mt-4 hover:bg-white transition-colors hover:text-secondary-ur"
+                    >
+                      <SiLeetcode fontSize="20px" />
+                    </a>
+
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100071557525977"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white bg-secondary-ur p-3 rounded-full mt-4 hover:bg-white transition-colors hover:text-secondary-ur"
+                    >
+                      <FaFacebook fontSize="20px" />
+                    </a>
+
+                    <a
+                      href="https://twitter.com/masudrana"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white bg-secondary-ur p-3 rounded-full mt-4 hover:bg-white transition-colors hover:text-secondary-ur"
+                    >
+                      <FaTwitter fontSize="20px" />
+                    </a>
+
+                    <a
+                      href="https://codepen.io/pro-masudbd"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-white bg-secondary-ur p-3 rounded-full mt-4 hover:bg-white transition-colors hover:text-secondary-ur"
+                    >
+                      <FaCodepen fontSize="20px" />
+                    </a>
+                  </div>
                 </div>
               )}
+              <ul className=" flex flex-col gap-4 mt-4 pb-4 text-lg">
+                <li>
+                  <a href="#home" className="">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="#about" className="">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a href="#projects" className="">
+                    Projects
+                  </a>
+                </li>
+                <li>
+                  <a href="#skills" className="">
+                    Skills
+                  </a>
+                </li>
+                <li>
+                  <a href="#contact" className="">
+                    Contact
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
 
