@@ -18,7 +18,7 @@ import UserImage from "./../assets/image/user.png";
 const Sidebar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [darkMode, setDarkMode] = useState(
-    localStorage.getItem("theme") === "dark"
+    localStorage.getItem("theme") === "dark",
   );
 
   // Dark Mode Set
@@ -42,7 +42,7 @@ const Sidebar = () => {
     <>
       <aside
         className={`z-40 h-screen transition-all duration-300 ease-in-out ${sidebarWidthClass} 
-        bg-primary-ur dark:bg-[#111827] p-4 flex flex-col shrink-0`}
+        bg-primary-ur dark:bg-[#111827] p-4 flex flex-col shrink-0 hidden lg:flex`}
       >
         <div className="flex flex-col justify-between h-full items-start">
           <div className="site-top w-full">
@@ -223,13 +223,13 @@ const Sidebar = () => {
           <div className="site-bottom w-full flex items-center">
             <button onClick={() => setDarkMode(!darkMode)}>
               {darkMode ? (
-                <FaMoon
+                <CiLight
                   color="#fff"
                   fontSize="24px"
                   style={{ cursor: "pointer" }}
                 />
               ) : (
-                <CiLight
+                <FaMoon
                   color="#fff"
                   fontSize="24px"
                   style={{ cursor: "pointer" }}
