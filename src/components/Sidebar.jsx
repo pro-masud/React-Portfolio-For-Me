@@ -36,7 +36,7 @@ const Sidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
 
-  const sidebarWidthClass = isSidebarOpen ? "w-80" : "w-16";
+  const sidebarWidthClass = isSidebarOpen ? "w-[420px]" : "w-16";
 
   return (
     <>
@@ -77,7 +77,7 @@ const Sidebar = () => {
                   <img
                     src={UserImage}
                     alt="User Avatar"
-                    className="rounded-full mb-4 w-60 h-60 object-cover mt-5"
+                    className="rounded-full mb-4 w-40 h-40 object-cover mt-5"
                   />
 
                   <p className="text-white dark:text-gray-300 font-medium text-sm text-center">

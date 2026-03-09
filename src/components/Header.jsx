@@ -1,19 +1,52 @@
+import { useEffect, useRef } from "react";
+import { Typed } from "react-typed";
 import UserImage from "../assets/image/user.png";
+
 const Header = () => {
+  const typedRef = useRef(null);
+
+  useEffect(() => {
+    if (typedRef.current) {
+      const typed = new Typed(typedRef.current, {
+        strings: [
+          "WordPress Developer",
+          "Front-End Engineer",
+          "Software Developer",
+          "Web Application Developer",
+        ],
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: true,
+        loopCount: Infinity,
+      });
+
+      return () => {
+        typed.destroy();
+      };
+    }
+  }, []);
   return (
     <>
       <div className="header-top"></div>
-      <header>
-        <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between  flex-col md:flex-row w-full items-center py-10 px-1 gap-5">
-            <div className="header-info flex justify-center flex-col w-full order-2 lg:order-1  gap-2">
-              <h1 className="text-3xl lg:text-5xl font-bold text-gray-900 dark:text-white">
-                Masud Rana
-              </h1>
-              <h4 className="text-[21px] lg:text-3xl font-bold text-secondary-ur">
-                Web Application Developer
-              </h4>
-              <p className="text-gray-700 dark:text-gray-300 text-sm">
+
+      <header className="py-8 sm:py-12 lg:py-16">
+        <div className="px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
+            {/* Text Section */}
+            <div className="w-full lg:w-3/5 text-center lg:text-left space-y-4 order-2 lg:order-1">
+              <div className="space-y-2">
+                <h1 className="text-2xl sm:text-3xl lg:text-[45px] font-[700] text-gray-900 dark:text-white leading-tight">
+                  Masud Rana
+                </h1>
+                <h4 className="text-base sm:text-lg lg:text-[24px] font-semibold text-secondary-ur min-h-[1.5em]">
+                  <span
+                    ref={typedRef}
+                    className="inline-block text-base sm:text-lg lg:text-[24px] font-semibold"
+                  ></span>
+                </h4>
+              </div>
+
+              <p className="text-gray-600 dark:text-gray-300 text-sm sm:text-base lg:text-lg max-w-2xl lg:max-w-none mt-0">
                 A results-oriented WordPress Developer with a passion for
                 crafting innovative websites that prioritize user experience and
                 functionality. Dedicated to delivering high-quality solutions
@@ -21,17 +54,35 @@ const Header = () => {
                 technologies. Committed to contributing effectively to project
                 success and pursuing continual personal growth in the field.
               </p>
-              <div className="flex">
-                <a href="#">Portfolio</a>
-                <a href="#">Resume</a>
+
+              {/* Buttons */}
+              <div className="flex flex-col sm:flex-row gap-4 pt-6 justify-center lg:justify-start">
+                <a
+                  href="#"
+                  className="px-8 sm:px-10 py-3 bg-secondary-ur text-white font-semibold rounded-lg hover:bg-opacity-90 hover:shadow-lg transition-all duration-200 transform hover:-translate-y-1"
+                >
+                  View Portfolio
+                </a>
+
+                <a
+                  href="#"
+                  className="px-8 sm:px-10 py-3 bg-primary-ur text-white font-semibold rounded-lg hover:bg-opacity-90 hover:shadow-lg transition-all duration-200 transform hover:-translate-y-1"
+                >
+                  View Resume
+                </a>
               </div>
             </div>
-            <div className="profile-image w-full flex justify-end order-1 lg:order-2">
-              <img
-                className="rounded w-100 h-100 object-cover"
-                src={UserImage}
-                alt=""
-              />
+
+            {/* Image Section */}
+            <div className="w-full lg:w-2/5 flex justify-center lg:justify-end order-1 lg:order-2">
+              <div className="relative w-full">
+                <img
+                  className="w-full h-auto object-cover rounded-2xl shadow-2xl hover:shadow-2xl transition-shadow duration-300"
+                  src={UserImage}
+                  alt="Masud Rana"
+                />
+                <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-secondary-ur/10 to-transparent pointer-events-none"></div>
+              </div>
             </div>
           </div>
         </div>
