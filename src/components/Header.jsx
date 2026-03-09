@@ -1,9 +1,11 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
+import { FaBriefcase, FaFile } from "react-icons/fa";
 import { Typed } from "react-typed";
 import UserImage from "../assets/image/user.png";
 
 const Header = () => {
   const typedRef = useRef(null);
+  const [hoveredButton, setHoveredButton] = useState(null);
 
   useEffect(() => {
     if (typedRef.current) {
@@ -59,15 +61,33 @@ const Header = () => {
               <div className="flex flex-col sm:flex-row gap-4 pt-6 justify-center lg:justify-start">
                 <a
                   href="#"
-                  className="px-8 sm:px-10 py-3 bg-secondary-ur text-white font-semibold rounded-lg hover:bg-opacity-90 hover:shadow-lg transition-all duration-200 transform hover:-translate-y-1"
+                  onMouseEnter={() => setHoveredButton("portfolio")}
+                  onMouseLeave={() => setHoveredButton(null)}
+                  className={`px-8 sm:px-10 py-3 font-semibold rounded-lg transition-all duration-200 transform flex items-center gap-2 justify-center ${
+                    hoveredButton === "portfolio"
+                      ? "bg-secondary-ur text-white shadow-lg -translate-y-1"
+                      : hoveredButton === "resume"
+                        ? "bg-secondary-ur text-white opacity-60"
+                        : "bg-secondary-ur text-white hover:bg-opacity-90 hover:shadow-lg hover:-translate-y-1"
+                  }`}
                 >
+                  <FaBriefcase />
                   View Portfolio
                 </a>
 
                 <a
                   href="#"
-                  className="px-8 sm:px-10 py-3 bg-primary-ur text-white font-semibold rounded-lg hover:bg-opacity-90 hover:shadow-lg transition-all duration-200 transform hover:-translate-y-1"
+                  onMouseEnter={() => setHoveredButton("resume")}
+                  onMouseLeave={() => setHoveredButton(null)}
+                  className={`px-8 sm:px-10 py-3 font-semibold rounded-lg transition-all duration-200 transform flex items-center gap-2 justify-center ${
+                    hoveredButton === "resume"
+                      ? "bg-primary-ur text-white shadow-lg -translate-y-1"
+                      : hoveredButton === "portfolio"
+                        ? "bg-primary-ur text-white opacity-60"
+                        : "bg-primary-ur text-white hover:bg-opacity-90 hover:shadow-lg hover:-translate-y-1"
+                  }`}
                 >
+                  <FaFile />
                   View Resume
                 </a>
               </div>

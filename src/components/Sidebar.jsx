@@ -1,14 +1,15 @@
 import { useEffect, useState } from "react";
 import { CiLight } from "react-icons/ci";
 import {
-  FaAddressCard,
-  FaCode,
+  FaBriefcase,
   FaFacebook,
+  FaFileAlt,
   FaGithub,
   FaMoon,
+  FaNewspaper,
+  FaTools,
   FaTwitter,
   FaUser,
-  FaUserGraduate,
 } from "react-icons/fa";
 import { FaBars, FaCodepen, FaLinkedin } from "react-icons/fa6";
 import { IoIosSearch, IoMdMail } from "react-icons/io";
@@ -73,7 +74,6 @@ const Sidebar = () => {
                   <h2 className="text-3xl text-white dark:text-gray-200 font-bold">
                     Masud Rana
                   </h2>
-
                   <img
                     src={UserImage}
                     alt="User Avatar"
@@ -156,49 +156,63 @@ const Sidebar = () => {
                     } ${!isSidebarOpen && "active-link"}`}
                   >
                     <FaUser fontSize="20px" />
-                    {isSidebarOpen && "Home"}
+                    {isSidebarOpen && "About Me"}
                   </a>
                 </li>
 
                 <li>
                   <a
-                    href="#about"
+                    href="#Portfolio"
                     className={`flex items-center gap-2 rounded-md transition-all duration-200 ${
                       isSidebarOpen
                         ? "nav-link px-3 py-1 hover:bg-secondary-ur hover:text-white"
                         : "p-1 justify-center hover:bg-secondary-ur"
                     }`}
                   >
-                    <FaAddressCard fontSize="20px" />
-                    {isSidebarOpen && "About"}
+                    <FaBriefcase fontSize="20px" />
+                    {isSidebarOpen && "Portfolio"}
                   </a>
                 </li>
 
                 <li>
                   <a
-                    href="#projects"
+                    href="#Resume"
                     className={`flex items-center gap-2 rounded-md transition-all duration-200 ${
                       isSidebarOpen
                         ? "nav-link px-3 py-1 hover:bg-secondary-ur hover:text-white"
                         : "p-1 justify-center hover:bg-secondary-ur"
                     }`}
                   >
-                    <FaUserGraduate fontSize="20px" />
-                    {isSidebarOpen && "Projects"}
+                    <FaFileAlt fontSize="20px" />
+                    {isSidebarOpen && "Resume"}
                   </a>
                 </li>
 
                 <li>
                   <a
-                    href="#skills"
+                    href="#Price"
                     className={`flex items-center gap-2 rounded-md transition-all duration-200 ${
                       isSidebarOpen
                         ? "nav-link px-3 py-1 hover:bg-secondary-ur hover:text-white"
                         : "p-1 justify-center hover:bg-secondary-ur"
                     }`}
                   >
-                    <FaCode fontSize="20px" />
-                    {isSidebarOpen && "Skills"}
+                    <FaTools fontSize="20px" />
+                    {isSidebarOpen && "Service & Price"}
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="#Blog"
+                    className={`flex items-center gap-2 rounded-md transition-all duration-200 ${
+                      isSidebarOpen
+                        ? "nav-link px-3 py-1 hover:bg-secondary-ur hover:text-white"
+                        : "p-1 justify-center hover:bg-secondary-ur"
+                    }`}
+                  >
+                    <FaNewspaper fontSize="20px" />
+                    {isSidebarOpen && "Blog"}
                   </a>
                 </li>
 
