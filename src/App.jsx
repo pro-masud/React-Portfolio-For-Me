@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
+import Skills from "./components/Skills";
 
 const App = () => {
   return (
@@ -11,6 +12,8 @@ const App = () => {
       >
         <div className="max-w-8xl px-4 sm:px-6 lg:px-8">
           <Header />
+          <hr />
+          <Skills />
         </div>
       </main>
     </div>
