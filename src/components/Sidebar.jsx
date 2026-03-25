@@ -14,11 +14,18 @@ import {
 import { FaBars, FaCodepen, FaLinkedin } from "react-icons/fa6";
 import { IoIosSearch, IoMdMail } from "react-icons/io";
 import { SiLeetcode } from "react-icons/si";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import UserImage from "./../assets/image/user.png";
 
 const Sidebar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+
+  const getNavLinkClass = ({ isActive }) =>
+    `flex items-center gap-2 rounded-md transition-all duration-200 ${
+      isSidebarOpen
+        ? "nav-link px-3 py-1 hover:bg-secondary-ur hover:text-white"
+        : "p-1 justify-center hover:bg-secondary-ur"
+    } ${isActive ? "active-link" : ""}`;
   const [darkMode, setDarkMode] = useState(
     localStorage.getItem("theme") === "dark",
   );
@@ -148,87 +155,45 @@ const Sidebar = () => {
               {/* Navigation Menu */}
               <ul className="flex flex-col gap-2 mt-8 pb-4 text-lg text-white dark:text-gray-200">
                 <li>
-                  <Link
-                    to="/about"
-                    className={`flex items-center gap-2 rounded-md transition-all duration-200 ${
-                      isSidebarOpen
-                        ? "nav-link active-link px-3 py-1 hover:bg-secondary-ur hover:text-white"
-                        : "p-1 justify-center hover:bg-secondary-ur"
-                    } ${!isSidebarOpen && "active-link"}`}
-                  >
+                  <NavLink to="/about" className={getNavLinkClass}>
                     <FaUser fontSize="20px" />
                     {isSidebarOpen && "About Me"}
-                  </Link>
+                  </NavLink>
                 </li>
 
                 <li>
-                  <a
-                    href="#Portfolio"
-                    className={`flex items-center gap-2 rounded-md transition-all duration-200 ${
-                      isSidebarOpen
-                        ? "nav-link px-3 py-1 hover:bg-secondary-ur hover:text-white"
-                        : "p-1 justify-center hover:bg-secondary-ur"
-                    }`}
-                  >
+                  <NavLink to="/portfolio" className={getNavLinkClass}>
                     <FaBriefcase fontSize="20px" />
                     {isSidebarOpen && "Portfolio"}
-                  </a>
+                  </NavLink>
                 </li>
 
                 <li>
-                  <a
-                    href="#Resume"
-                    className={`flex items-center gap-2 rounded-md transition-all duration-200 ${
-                      isSidebarOpen
-                        ? "nav-link px-3 py-1 hover:bg-secondary-ur hover:text-white"
-                        : "p-1 justify-center hover:bg-secondary-ur"
-                    }`}
-                  >
+                  <NavLink to="/resume" className={getNavLinkClass}>
                     <FaFileAlt fontSize="20px" />
                     {isSidebarOpen && "Resume"}
-                  </a>
+                  </NavLink>
                 </li>
 
                 <li>
-                  <a
-                    href="#Price"
-                    className={`flex items-center gap-2 rounded-md transition-all duration-200 ${
-                      isSidebarOpen
-                        ? "nav-link px-3 py-1 hover:bg-secondary-ur hover:text-white"
-                        : "p-1 justify-center hover:bg-secondary-ur"
-                    }`}
-                  >
+                  <NavLink to="/price" className={getNavLinkClass}>
                     <FaTools fontSize="20px" />
                     {isSidebarOpen && "Service & Price"}
-                  </a>
+                  </NavLink>
                 </li>
 
                 <li>
-                  <a
-                    href="#Blog"
-                    className={`flex items-center gap-2 rounded-md transition-all duration-200 ${
-                      isSidebarOpen
-                        ? "nav-link px-3 py-1 hover:bg-secondary-ur hover:text-white"
-                        : "p-1 justify-center hover:bg-secondary-ur"
-                    }`}
-                  >
+                  <NavLink to="/blog" className={getNavLinkClass}>
                     <FaNewspaper fontSize="20px" />
                     {isSidebarOpen && "Blog"}
-                  </a>
+                  </NavLink>
                 </li>
 
                 <li>
-                  <a
-                    href="#contact"
-                    className={`flex items-center gap-2 rounded-md transition-all duration-200 ${
-                      isSidebarOpen
-                        ? "nav-link px-3 py-1 hover:bg-secondary-ur hover:text-white"
-                        : "p-1 justify-center hover:bg-secondary-ur"
-                    }`}
-                  >
+                  <NavLink to="/contact" className={getNavLinkClass}>
                     <IoMdMail fontSize="20px" />
                     {isSidebarOpen && "Contact"}
-                  </a>
+                  </NavLink>
                 </li>
               </ul>
             </div>
