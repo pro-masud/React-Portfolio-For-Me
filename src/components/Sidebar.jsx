@@ -14,6 +14,7 @@ import {
 import { FaBars, FaCodepen, FaLinkedin } from "react-icons/fa6";
 import { IoIosSearch, IoMdMail } from "react-icons/io";
 import { SiLeetcode } from "react-icons/si";
+import { Link } from "react-router-dom";
 import UserImage from "./../assets/image/user.png";
 
 const Sidebar = () => {
@@ -147,8 +148,8 @@ const Sidebar = () => {
               {/* Navigation Menu */}
               <ul className="flex flex-col gap-2 mt-8 pb-4 text-lg text-white dark:text-gray-200">
                 <li>
-                  <a
-                    href="#home"
+                  <Link
+                    to="/about"
                     className={`flex items-center gap-2 rounded-md transition-all duration-200 ${
                       isSidebarOpen
                         ? "nav-link active-link px-3 py-1 hover:bg-secondary-ur hover:text-white"
@@ -157,7 +158,7 @@ const Sidebar = () => {
                   >
                     <FaUser fontSize="20px" />
                     {isSidebarOpen && "About Me"}
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
