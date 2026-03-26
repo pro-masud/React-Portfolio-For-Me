@@ -51,7 +51,7 @@ const Sidebar = () => {
     <>
       <aside
         className={`z-40 h-screen transition-all duration-300 ease-in-out ${sidebarWidthClass} 
-        bg-primary-ur dark:bg-[#111827] p-4 flex flex-col shrink-0 hidden lg:flex`}
+        bg-primary-ur dark:bg-[#111827] p-4 flex flex-col shrink-0 hidden lg:flex sticky top-0`}
       >
         <div className="flex flex-col justify-between h-full items-start">
           <div className="site-top w-full">

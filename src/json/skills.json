@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "HTML, CSS & SCSS, Bootstrap",
+    "description": "HTML and CSS are fundamental web technologies. HTML structures content, while CSS styles and designs it. Together, they create visually appealing and functional websites.",
+    "icons": ["FaHtml5", "FaCss3Alt", "SiSass", "FaBootstrap", "FaJsSquare"]
+  },
+  {
+    "id": 2,
+    "title": "JS, React, jQuery, Tailwind CSS",
+    "description": "Proficient in JavaScript (ES6), jQuery, and Bootstrap, crafting dynamic and responsive web experiences with smooth functionality and sleek design.",
+    "icons": [
+      "FaJsSquare",
+      "FaReact",
+      "SiJquery",
+      "SiTailwindcss",
+      "FaBootstrap"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "PSD, XD, Figma",
+    "description": "Expert in converting PSD, XD, and Figma designs into pixel-perfect WordPress websites, ensuring seamless integration and high fidelity.",
+    "icons": ["SiAdobephotoshop", "SiAdobexd", "SiFigma", "SiWordpress"]
+  },
+  {
+    "id": 4,
+    "title": "WordPress, PHP, Node Js",
+    "description": "Skilled in WordPress, PHP, and MySQLi, building robust and scalable websites with efficient data management and seamless user experiences.",
+    "icons": ["SiWordpress", "SiPhp", "FaNodeJs", "SiMysql", "FaGitAlt"]
+  },
+  {
+    "id": 5,
+    "title": "MySQLi, Express Js, MongoDB",
+    "description": "XAMPP is a web development solution, Local provides local WordPress environments, Git is a version control system, and GitHub is a platform for hosting Git repositories.",
+    "icons": ["SiMysql", "SiExpress", "SiMongodb", "FaNodeJs", "FaGitAlt"]
+  },
+  {
+    "id": 6,
+    "title": "GitHub, Git, Npm",
+    "description": "Asana: Collaborative task management tool for teams, streamlining workflows and communication. Postman: API development platform simplifying API development and collaboration for developers.",
+    "icons": ["FaGithub", "FaGitAlt", "SiNpm", "SiAsana", "SiPostman"]
+  },
+  {
+    "id": 7,
+    "title": "Xampp, Local, Asana, Postman",
+    "description": "Asana: Collaborative task management tool for teams, streamlining workflows and communication. Postman: API development platform simplifying API development and collaboration for developers.",
+    "icons": ["SiXampp", "SiLocal", "SiAsana", "SiPostman", "FaGitAlt"]
+  }
+]
