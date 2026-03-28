@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "React Portfolio Website",
+    "description": "A modern, responsive portfolio website built with React and Tailwind CSS, showcasing skills and projects.",
+    "technologies": ["React", "Vite", "Tailwind CSS", "React Router"],
+    "image": "https://dev-masud-rana.netlify.app/image/theme/xpovio.png",
+    "github": "https://github.com/username/react-portfolio",
+    "live": "https://example.com/portfolio"
+  },
+  {
+    "id": 2,
+    "title": "WordPress Blog Site",
+    "description": "A custom WordPress blog with Elementor page builder, optimized for performance and SEO.",
+    "technologies": ["WordPress", "Elementor", "PHP", "MySQL"],
+    "image": "https://via.placeholder.com/400x200/10B981/FFFFFF?text=Blog+Site",
+    "github": "https://github.com/username/wordpress-blog",
+    "live": "https://example.com/blog"
+  },
+  {
+    "id": 3,
+    "title": "E-commerce Store",
+    "description": "An e-commerce platform built with React and Node.js, featuring user authentication and payment integration.",
+    "technologies": ["React", "Node.js", "Express", "MongoDB"],
+    "image": "https://via.placeholder.com/400x200/DC2626/FFFFFF?text=E-commerce",
+    "github": "https://github.com/username/ecommerce-store",
+    "live": "https://example.com/store"
+  }
+]

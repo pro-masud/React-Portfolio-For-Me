@@ -3,48 +3,54 @@
     "id": 1,
     "title": "HTML, CSS & SCSS, Bootstrap",
     "description": "HTML and CSS are fundamental web technologies. HTML structures content, while CSS styles and designs it. Together, they create visually appealing and functional websites.",
-    "icons": ["FaHtml5", "FaCss3Alt", "SiSass", "FaBootstrap", "FaJsSquare"]
+    "icons": ["FaHtml5", "FaCss3Alt", "SiSass", "FaBootstrap"]
   },
   {
     "id": 2,
     "title": "JS, React, jQuery, Tailwind CSS",
     "description": "Proficient in JavaScript (ES6), jQuery, and Bootstrap, crafting dynamic and responsive web experiences with smooth functionality and sleek design.",
-    "icons": [
-      "FaJsSquare",
-      "FaReact",
-      "SiJquery",
-      "SiTailwindcss",
-      "FaBootstrap"
-    ]
+    "icons": ["FaJsSquare", "FaReact", "SiJquery", "SiTailwindcss"]
   },
   {
     "id": 3,
     "title": "PSD, XD, Figma",
     "description": "Expert in converting PSD, XD, and Figma designs into pixel-perfect WordPress websites, ensuring seamless integration and high fidelity.",
-    "icons": ["SiAdobephotoshop", "SiAdobexd", "SiFigma", "SiWordpress"]
+    "icons": ["SiAdobephotoshop", "SiAdobexd", "SiFigma"]
+  },
+  {
+    "id": 5,
+    "title": "WordPress Customization",
+    "description": "Skilled in customizing WordPress websites using Gutenberg, Elementor, and WPBakery. Focused on modifying layouts, styling, and existing features to match client needs without building from scratch.",
+    "icons": ["SiWordpress", "SiElementor", "SiGutenberg", "BsPlugin"]
+  },
+  {
+    "id": 6,
+    "title": "WordPress Development",
+    "description": "Experienced in developing WordPress solutions from scratch, including custom themes, plugins, dynamic features, performance optimization, and scalable architecture.",
+    "icons": ["SiWordpress", "SiElementor", "SiGutenberg", "BsPlugin"]
   },
   {
     "id": 4,
-    "title": "WordPress, PHP, Node Js",
+    "title": "PHP, Node Js",
     "description": "Skilled in WordPress, PHP, and MySQLi, building robust and scalable websites with efficient data management and seamless user experiences.",
-    "icons": ["SiWordpress", "SiPhp", "FaNodeJs", "SiMysql", "FaGitAlt"]
+    "icons": ["SiPhp", "FaNodeJs"]
   },
   {
     "id": 5,
     "title": "MySQLi, Express Js, MongoDB",
     "description": "XAMPP is a web development solution, Local provides local WordPress environments, Git is a version control system, and GitHub is a platform for hosting Git repositories.",
-    "icons": ["SiMysql", "SiExpress", "SiMongodb", "FaNodeJs", "FaGitAlt"]
+    "icons": ["SiMysql", "SiExpress", "SiMongodb", "FaNodeJs"]
   },
   {
     "id": 6,
-    "title": "GitHub, Git, Npm",
+    "title": "GitHub, Git, Npm, Postman",
     "description": "Asana: Collaborative task management tool for teams, streamlining workflows and communication. Postman: API development platform simplifying API development and collaboration for developers.",
-    "icons": ["FaGithub", "FaGitAlt", "SiNpm", "SiAsana", "SiPostman"]
+    "icons": ["FaGithub", "FaGitAlt", "SiNpm", "SiPostman"]
   },
   {
     "id": 7,
-    "title": "Xampp, Local, Asana, Postman",
+    "title": "Xampp, Local, Asana, ",
     "description": "Asana: Collaborative task management tool for teams, streamlining workflows and communication. Postman: API development platform simplifying API development and collaboration for developers.",
-    "icons": ["SiXampp", "SiLocal", "SiAsana", "SiPostman", "FaGitAlt"]
+    "icons": ["SiXampp", "SiLocal", "SiAsana"]
   }
 ]

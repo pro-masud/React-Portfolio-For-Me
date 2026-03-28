@@ -27,6 +27,9 @@ import {
   SiXampp,
 } from "react-icons/si";
 
+import { BsPlugin } from "react-icons/bs";
+import { SiElementor, SiGutenberg } from "react-icons/si";
+
 import skillData from "../json/skills.json";
 
 // Icon mapping
@@ -54,6 +57,9 @@ const iconMap = {
   SiAsana: SiAsana,
   SiJquery: SiJquery,
   SiXampp: SiXampp,
+  SiElementor: SiElementor,
+  SiGutenberg: SiGutenberg,
+  BsPlugin: BsPlugin,
 };
 
 const Skills = () => {
