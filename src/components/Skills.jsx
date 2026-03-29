@@ -26,7 +26,7 @@ import {
   SiWordpress,
   SiXampp,
 } from "react-icons/si";
-
+import { BsDiscord } from "react-icons/bs";
 import { BsPlugin } from "react-icons/bs";
 import { SiElementor, SiGutenberg } from "react-icons/si";
 
@@ -60,6 +60,7 @@ const iconMap = {
   SiElementor: SiElementor,
   SiGutenberg: SiGutenberg,
   BsPlugin: BsPlugin,
+  BsDiscord: BsDiscord,
 };
 
 const Skills = () => {
@@ -79,7 +80,8 @@ const Skills = () => {
                     IconComponent && (
                       <span
                         key={`${item.id}-${index}`}
-                        className="flex h-10 w-10 items-center justify-center rounded-full border border-emerald-200 dark:border-emerald-500/20 bg-emerald-50 dark:bg-emerald-500/10 text-emerald-500 dark:text-emerald-300"
+                        className="icon-float flex h-10 w-10 items-center justify-center rounded-full border border-emerald-200 dark:border-emerald-500/20 bg-emerald-50 dark:bg-emerald-500/10 text-emerald-500 dark:text-emerald-300"
+                        style={{ animationDelay: `${index * 0.2}s` }}
                       >
                         <IconComponent className="text-xl" />
                       </span>

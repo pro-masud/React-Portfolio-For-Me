@@ -97,7 +97,7 @@ const Header = () => {
             <div className="w-full lg:w-2/5 flex justify-center lg:justify-end order-1 lg:order-2">
               <div className="relative w-full">
                 <img
-                  className="w-full h-auto object-cover rounded-2xl shadow-2xl hover:shadow-2xl transition-shadow duration-300"
+                  className="w-full h-auto object-cover shadow-2xl hover:shadow-2xl transition-shadow duration-300 border border-gray-300 dark:border-emerald-500 rounded-3xl ring-emerald-500/20 dark:ring-emerald-500/10"
                   src={UserImage}
                   alt="Masud Rana"
                 />

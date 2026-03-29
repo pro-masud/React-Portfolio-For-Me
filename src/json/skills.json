@@ -49,8 +49,8 @@
   },
   {
     "id": 7,
-    "title": "Xampp, Local, Asana, ",
+    "title": "Xampp, Local, Asana, Discord",
     "description": "Asana: Collaborative task management tool for teams, streamlining workflows and communication. Postman: API development platform simplifying API development and collaboration for developers.",
-    "icons": ["SiXampp", "SiLocal", "SiAsana"]
+    "icons": ["SiXampp", "SiLocal", "SiAsana", "BsDiscord"]
   }
 ]

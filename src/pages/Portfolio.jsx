@@ -14,7 +14,7 @@ const Portfolio = () => {
     React: FaReact,
     Vite: SiVite,
     "Tailwind CSS": SiTailwindcss,
-    "React Router": FaReact, // Placeholder icon
+    "React Router": FaReact,
     WordPress: SiWordpress,
     Elementor: SiElementor,
     PHP: SiPhp,
@@ -24,25 +24,18 @@ const Portfolio = () => {
   return (
     <section className="bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 px-4 sm:px-6 lg:px-8 py-8 rounded-xl shadow-md">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white">
-          My Portfolio
-        </h2>
-
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {portfolioData.map((item) => (
             <article
               key={item.id}
               className="relative bg-white dark:bg-gray-900 border border-gray-300 dark:border-emerald-500 rounded-3xl p-8 flex flex-col justify-between transition duration-300 hover:shadow-2xl ring-2 ring-emerald-500/20 dark:ring-emerald-500/10 overflow-hidden"
             >
-              {/* Background Image */}
               <div
                 className="absolute inset-0 bg-cover bg-center opacity-20"
                 style={{ backgroundImage: `url(${item.image})` }}
               ></div>
 
-              {/* Content */}
               <div className="relative z-10 flex flex-col h-full justify-between">
-                {/* Icons */}
                 <div className="flex flex-wrap justify-start gap-3 mb-6">
                   {item.technologies.slice(0, 5).map((tech, index) => {
                     const IconComponent = techIconMap[tech];
@@ -50,7 +43,8 @@ const Portfolio = () => {
                       IconComponent && (
                         <span
                           key={`${item.id}-${index}`}
-                          className="flex h-10 w-10 items-center justify-center rounded-full border border-emerald-200 dark:border-emerald-500/20 bg-emerald-50 dark:bg-emerald-500/10 text-emerald-500 dark:text-emerald-300"
+                          className="icon-float flex h-10 w-10 items-center justify-center rounded-full border border-emerald-200 dark:border-emerald-500/20 bg-emerald-50 dark:bg-emerald-500/10 text-emerald-500 dark:text-emerald-300"
+                          style={{ animationDelay: `${index * 0.2}s` }}
                         >
                           <IconComponent className="text-xl" />
                         </span>
@@ -59,7 +53,6 @@ const Portfolio = () => {
                   })}
                 </div>
 
-                {/* Title + Description */}
                 <div className="mb-6">
                   <h3 className="text-2xl font-semibold mb-3 text-gray-900 dark:text-white">
                     {item.title}
@@ -69,9 +62,7 @@ const Portfolio = () => {
                   </p>
                 </div>
 
-                {/* Buttons */}
                 <div className="flex gap-4 mt-auto">
-                  {/* GitHub */}
                   <a
                     href={item.github}
                     target="_blank"
@@ -81,7 +72,6 @@ const Portfolio = () => {
                     GitHub
                   </a>
 
-                  {/* Review Site */}
                   <a
                     href={item.preview}
                     target="_blank"
