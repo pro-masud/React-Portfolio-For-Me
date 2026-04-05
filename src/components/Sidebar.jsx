@@ -155,7 +155,7 @@ const Sidebar = () => {
               {/* Navigation Menu */}
               <ul className="flex flex-col gap-2 mt-8 pb-4 text-lg text-white dark:text-gray-200">
                 <li>
-                  <NavLink to="/about" className={getNavLinkClass}>
+                  <NavLink to="/" className={getNavLinkClass}>
                     <FaUser fontSize="20px" />
                     {isSidebarOpen && "About Me"}
                   </NavLink>
