@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { CiLight } from "react-icons/ci";
 import {
   FaBriefcase,
+  FaDollarSign,
   FaFacebook,
   FaFileAlt,
   FaGithub,
@@ -176,9 +177,16 @@ const Sidebar = () => {
                 </li>
 
                 <li>
-                  <NavLink to="/price" className={getNavLinkClass}>
+                  <NavLink to="/service" className={getNavLinkClass}>
                     <FaTools fontSize="20px" />
-                    {isSidebarOpen && "Service & Price"}
+                    {isSidebarOpen && "Services"}
+                  </NavLink>
+                </li>
+
+                <li>
+                  <NavLink to="/price" className={getNavLinkClass}>
+                    <FaDollarSign fontSize="20px" />
+                    {isSidebarOpen && "Pricing"}
                   </NavLink>
                 </li>
 

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "post-1",
+    "title": "Building Fast React Sites with Vite",
+    "date": "2026-06-15",
+    "excerpt": "How Vite speeds up development and improves production builds.",
+    "content": "Vite provides a fast development server and lightning-fast HMR.\n\nIn this post we explore how to set up Vite with React and Tailwind, and some tips to optimize build size and loading performance.",
+    "tags": ["React", "Vite", "Performance"]
+  },
+  {
+    "id": "post-2",
+    "title": "Designing Accessible Components",
+    "date": "2026-05-10",
+    "excerpt": "Small accessibility improvements that make a big difference.",
+    "content": "Accessibility is not optional.\n\nWe cover semantic HTML, ARIA basics, keyboard navigation, and focus management to make components usable for everyone.",
+    "tags": ["Accessibility", "UI/UX"]
+  },
+  {
+    "id": "post-3",
+    "title": "Simple SEO Tips for Portfolio Sites",
+    "date": "2026-04-02",
+    "excerpt": "On-page SEO tactics that help your portfolio get found.",
+    "content": "A few on-page SEO practices: good titles, meta descriptions, structured data, and fast page speed.\n\nThis post walks through practical steps you can apply today.",
+    "tags": ["SEO", "Performance"]
+  }
+]
