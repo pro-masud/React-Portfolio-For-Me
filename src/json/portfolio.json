@@ -2,6 +2,7 @@
   {
     "id": 1,
     "title": "React Portfolio Website",
+    "category": "front-end",
     "description": "A modern, responsive portfolio website built with React and Tailwind CSS, showcasing skills and projects.",
     "technologies": ["React", "Vite", "Tailwind CSS", "React Router"],
     "image": "https://dev-masud-rana.netlify.app/image/theme/xpovio.png",
@@ -11,6 +12,7 @@
   {
     "id": 2,
     "title": "WordPress Blog Site",
+    "category": "wp-theme",
     "description": "A custom WordPress blog with Elementor page builder, optimized for performance and SEO.",
     "technologies": ["WordPress", "Elementor", "PHP", "MySQL"],
     "image": "https://via.placeholder.com/400x200/10B981/FFFFFF?text=Blog+Site",
@@ -20,6 +22,7 @@
   {
     "id": 3,
     "title": "E-commerce Store",
+    "category": "full-stack",
     "description": "An e-commerce platform built with React and Node.js, featuring user authentication and payment integration.",
     "technologies": ["React", "Node.js", "Express", "MongoDB"],
     "image": "https://via.placeholder.com/400x200/DC2626/FFFFFF?text=E-commerce",
@@ -29,6 +32,7 @@
   {
     "id": 4,
     "title": "Flamesafe Fire Safety Website",
+    "category": "client-project",
     "description": "A bold, responsive fire safety website designed to present emergency services, protection solutions, and safety information clearly.",
     "technologies": ["WordPress", "Elementor", "PHP"],
     "image": "https://dev-masud-rana.netlify.app/image/theme/flamesafe.png",
@@ -39,6 +43,7 @@
   {
     "id": 5,
     "title": "BNI Business Network Website",
+    "category": "wp-theme",
     "description": "A professional business networking website designed to present membership benefits, events, and trusted partner services.",
     "technologies": ["WordPress", "Elementor", "PHP"],
     "image": "https://dev-masud-rana.netlify.app/image/theme/bni.png",
@@ -49,6 +54,7 @@
   {
     "id": 6,
     "title": "BNI Chatbot Interface",
+    "category": "front-end",
     "description": "A focused chatbot interface for helping business network members find information and connect with the right services quickly.",
     "technologies": ["React", "JavaScript", "CSS"],
     "image": "https://dev-masud-rana.netlify.app/image/theme/bni-chatbot.png",
@@ -59,6 +65,7 @@
   {
     "id": 7,
     "title": "Bookle Book Store Theme",
+    "category": "themeforest",
     "description": "A warm, conversion-focused book store theme with clear product presentation, category browsing, and a polished reading experience.",
     "technologies": ["WordPress", "Elementor", "WooCommerce"],
     "image": "https://dev-masud-rana.netlify.app/image/theme/bookle-theme.png",
@@ -69,6 +76,7 @@
   {
     "id": 8,
     "title": "Dynamic Peptide Research Website",
+    "category": "wp-theme",
     "description": "A clean research-focused website presenting peptide products, scientific information, and a structured catalog for visitors.",
     "technologies": ["WordPress", "Elementor", "WooCommerce"],
     "image": "https://dev-masud-rana.netlify.app/image/theme/DynamicPeptide.png",
@@ -79,6 +87,7 @@
   {
     "id": 9,
     "title": "Firdip Corporate Website",
+    "category": "wp-theme",
     "description": "A modern corporate website built to communicate a company’s services, capabilities, and professional brand story.",
     "technologies": ["WordPress", "Elementor", "PHP"],
     "image": "https://dev-masud-rana.netlify.app/image/theme/firdip-theme.png",
@@ -89,6 +98,7 @@
   {
     "id": 10,
     "title": "Karoons Restaurant Website",
+    "category": "themeforest",
     "description": "A stylish restaurant website focused on menu discovery, brand atmosphere, reservations, and an inviting customer journey.",
     "technologies": ["WordPress", "Elementor", "PHP"],
     "image": "https://dev-masud-rana.netlify.app/image/theme/karoons-theme.png",
@@ -99,6 +109,7 @@
   {
     "id": 11,
     "title": "Karuzo Business Website",
+    "category": "wp-theme",
     "description": "A polished business website with a strong visual identity, clear service sections, and responsive layouts for every screen size.",
     "technologies": ["WordPress", "Elementor", "PHP"],
     "image": "https://dev-masud-rana.netlify.app/image/theme/karuzo.png",
@@ -109,6 +120,7 @@
   {
     "id": 12,
     "title": "Mistri Services Website",
+    "category": "wp-theme",
     "description": "A service business website designed to highlight solutions, build trust, and make it easy for customers to request help.",
     "technologies": ["WordPress", "Elementor", "PHP"],
     "image": "https://dev-masud-rana.netlify.app/image/theme/mistri.png",
@@ -119,6 +131,7 @@
   {
     "id": 13,
     "title": "Pelocis WordPress Website",
+    "category": "wp-theme",
     "description": "A responsive WordPress website with a refined product and service presentation built around a clear, accessible user experience.",
     "technologies": ["WordPress", "Elementor", "PHP"],
     "image": "https://dev-masud-rana.netlify.app/image/theme/pelociswp.png",
@@ -129,6 +142,7 @@
   {
     "id": 14,
     "title": "Peptivium Labs Website",
+    "category": "wp-theme",
     "description": "A professional laboratory and research website presenting scientific products, company information, and product details clearly.",
     "technologies": ["WordPress", "Elementor", "WooCommerce"],
     "image": "https://dev-masud-rana.netlify.app/image/theme/peptiviumlabs.png",
@@ -139,16 +153,18 @@
   {
     "id": 15,
     "title": "Portfolio X Website",
+    "category": "front-end",
     "description": "A bold portfolio experience that combines strong visual presentation, project storytelling, and responsive personal branding.",
     "technologies": ["React", "Vite", "Tailwind CSS"],
     "image": "https://dev-masud-rana.netlify.app/image/theme/portfolio-x.png",
-    "github": "",
-    "live": "",
-    "preview": ""
+    "github": "https://github.com/pro-masud/cozmiq-portfolio-public",
+    "live": "https://cozmiq-portfolio-public.vercel.app/",
+    "preview": "https://cozmiq-portfolio-public.vercel.app/"
   },
   {
     "id": 16,
     "title": "Rofiex Business Website",
+    "category": "wp-theme",
     "description": "A modern business website with a confident visual system, structured service content, and responsive presentation.",
     "technologies": ["WordPress", "Elementor", "PHP"],
     "image": "https://dev-masud-rana.netlify.app/image/theme/rofiex.png",
@@ -159,6 +175,7 @@
   {
     "id": 17,
     "title": "TrueHelp Support Website",
+    "category": "wp-theme",
     "description": "A trustworthy support and service website designed to make assistance, resources, and contact options easy to find.",
     "technologies": ["WordPress", "Elementor", "PHP"],
     "image": "https://dev-masud-rana.netlify.app/image/theme/truehelp.png",
@@ -169,6 +186,7 @@
   {
     "id": 18,
     "title": "Wallox Creative Theme",
+    "category": "themeforest",
     "description": "A creative, image-led theme with strong visual sections, flexible layouts, and a responsive presentation for modern brands.",
     "technologies": ["WordPress", "Elementor", "PHP"],
     "image": "https://dev-masud-rana.netlify.app/image/theme/wallox-theme.png",
@@ -179,6 +197,7 @@
   {
     "id": 19,
     "title": "Webgen Website Builder",
+    "category": "front-end",
     "description": "A modern web creation concept focused on simple visual communication, flexible sections, and an approachable user experience.",
     "technologies": ["React", "Vite", "Tailwind CSS"],
     "image": "https://dev-masud-rana.netlify.app/image/theme/webgen.png",
@@ -189,11 +208,12 @@
   {
     "id": 20,
     "title": "WordPress Plugins Collection",
+    "category": "wp-plugin",
     "description": "A WordPress plugin-focused project presenting custom tools and extensions with a clear, recognizable product identity.",
     "technologies": ["WordPress", "PHP", "JavaScript"],
     "image": "https://dev-masud-rana.netlify.app/image/theme/images.png",
-    "github": "",
-    "live": "",
+    "github": "https://github.com/pro-masud/cozmiq-portfolio-public",
+    "live": "https://cozmiq-portfolio-public.vercel.app/",
     "preview": ""
   }
 ]
