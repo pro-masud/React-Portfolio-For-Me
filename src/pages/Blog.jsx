@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import blogFallback from "../assets/image/blog/Blogger-Logo.png";
 import blogs from "../json/blogs.json";
 
 const Blog = () => {
@@ -13,6 +14,15 @@ const Blog = () => {
               key={post.id}
               className="relative bg-white dark:bg-gray-900 border border-gray-300 dark:border-emerald-500 rounded-3xl p-6 flex flex-col justify-between transition duration-300 hover:shadow-2xl ring-2 ring-emerald-500/10 overflow-hidden"
             >
+              <img
+                src={post.image}
+                alt={post.imageAlt || post.title}
+                className="mb-5 aspect-[16/9] w-full rounded-2xl object-cover"
+                onError={(event) => {
+                  event.currentTarget.onerror = null;
+                  event.currentTarget.src = blogFallback;
+                }}
+              />
               <div>
                 <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
                   {post.title}

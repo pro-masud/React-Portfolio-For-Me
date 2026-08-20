@@ -4,6 +4,8 @@
     "title": "Building Fast React Sites with Vite",
     "date": "2026-06-15",
     "excerpt": "How Vite speeds up development and improves production builds.",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1400&q=85",
+    "imageAlt": "Code editor showing a colorful web development project",
     "content": "Vite provides a fast development server and lightning-fast HMR.\n\nIn this post we explore how to set up Vite with React and Tailwind, and some tips to optimize build size and loading performance.",
     "tags": ["React", "Vite", "Performance"]
   },
@@ -12,6 +14,8 @@
     "title": "Designing Accessible Components",
     "date": "2026-05-10",
     "excerpt": "Small accessibility improvements that make a big difference.",
+    "image": "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1400&q=85",
+    "imageAlt": "Designer working on a user interface layout",
     "content": "Accessibility is not optional.\n\nWe cover semantic HTML, ARIA basics, keyboard navigation, and focus management to make components usable for everyone.",
     "tags": ["Accessibility", "UI/UX"]
   },
@@ -20,6 +24,8 @@
     "title": "Simple SEO Tips for Portfolio Sites",
     "date": "2026-04-02",
     "excerpt": "On-page SEO tactics that help your portfolio get found.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1400&q=85",
+    "imageAlt": "Analytics dashboard with charts and website performance data",
     "content": "A few on-page SEO practices: good titles, meta descriptions, structured data, and fast page speed.\n\nThis post walks through practical steps you can apply today.",
     "tags": ["SEO", "Performance"]
   }
