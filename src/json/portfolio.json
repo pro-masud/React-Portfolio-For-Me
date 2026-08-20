@@ -25,5 +25,175 @@
     "image": "https://via.placeholder.com/400x200/DC2626/FFFFFF?text=E-commerce",
     "github": "https://github.com/username/ecommerce-store",
     "live": "https://example.com/store"
+  },
+  {
+    "id": 4,
+    "title": "Flamesafe Fire Safety Website",
+    "description": "A bold, responsive fire safety website designed to present emergency services, protection solutions, and safety information clearly.",
+    "technologies": ["WordPress", "Elementor", "PHP"],
+    "image": "https://dev-masud-rana.netlify.app/image/theme/flamesafe.png",
+    "github": "",
+    "live": "https://flamesafe.netlify.app",
+    "preview": "https://flamesafe.netlify.app"
+  },
+  {
+    "id": 5,
+    "title": "BNI Business Network Website",
+    "description": "A professional business networking website designed to present membership benefits, events, and trusted partner services.",
+    "technologies": ["WordPress", "Elementor", "PHP"],
+    "image": "https://dev-masud-rana.netlify.app/image/theme/bni.png",
+    "github": "",
+    "live": "",
+    "preview": ""
+  },
+  {
+    "id": 6,
+    "title": "BNI Chatbot Interface",
+    "description": "A focused chatbot interface for helping business network members find information and connect with the right services quickly.",
+    "technologies": ["React", "JavaScript", "CSS"],
+    "image": "https://dev-masud-rana.netlify.app/image/theme/bni-chatbot.png",
+    "github": "",
+    "live": "",
+    "preview": ""
+  },
+  {
+    "id": 7,
+    "title": "Bookle Book Store Theme",
+    "description": "A warm, conversion-focused book store theme with clear product presentation, category browsing, and a polished reading experience.",
+    "technologies": ["WordPress", "Elementor", "WooCommerce"],
+    "image": "https://dev-masud-rana.netlify.app/image/theme/bookle-theme.png",
+    "github": "",
+    "live": "",
+    "preview": ""
+  },
+  {
+    "id": 8,
+    "title": "Dynamic Peptide Research Website",
+    "description": "A clean research-focused website presenting peptide products, scientific information, and a structured catalog for visitors.",
+    "technologies": ["WordPress", "Elementor", "WooCommerce"],
+    "image": "https://dev-masud-rana.netlify.app/image/theme/DynamicPeptide.png",
+    "github": "",
+    "live": "",
+    "preview": ""
+  },
+  {
+    "id": 9,
+    "title": "Firdip Corporate Website",
+    "description": "A modern corporate website built to communicate a company’s services, capabilities, and professional brand story.",
+    "technologies": ["WordPress", "Elementor", "PHP"],
+    "image": "https://dev-masud-rana.netlify.app/image/theme/firdip-theme.png",
+    "github": "",
+    "live": "",
+    "preview": ""
+  },
+  {
+    "id": 10,
+    "title": "Karoons Restaurant Website",
+    "description": "A stylish restaurant website focused on menu discovery, brand atmosphere, reservations, and an inviting customer journey.",
+    "technologies": ["WordPress", "Elementor", "PHP"],
+    "image": "https://dev-masud-rana.netlify.app/image/theme/karoons-theme.png",
+    "github": "",
+    "live": "",
+    "preview": ""
+  },
+  {
+    "id": 11,
+    "title": "Karuzo Business Website",
+    "description": "A polished business website with a strong visual identity, clear service sections, and responsive layouts for every screen size.",
+    "technologies": ["WordPress", "Elementor", "PHP"],
+    "image": "https://dev-masud-rana.netlify.app/image/theme/karuzo.png",
+    "github": "",
+    "live": "",
+    "preview": ""
+  },
+  {
+    "id": 12,
+    "title": "Mistri Services Website",
+    "description": "A service business website designed to highlight solutions, build trust, and make it easy for customers to request help.",
+    "technologies": ["WordPress", "Elementor", "PHP"],
+    "image": "https://dev-masud-rana.netlify.app/image/theme/mistri.png",
+    "github": "",
+    "live": "",
+    "preview": ""
+  },
+  {
+    "id": 13,
+    "title": "Pelocis WordPress Website",
+    "description": "A responsive WordPress website with a refined product and service presentation built around a clear, accessible user experience.",
+    "technologies": ["WordPress", "Elementor", "PHP"],
+    "image": "https://dev-masud-rana.netlify.app/image/theme/pelociswp.png",
+    "github": "",
+    "live": "",
+    "preview": ""
+  },
+  {
+    "id": 14,
+    "title": "Peptivium Labs Website",
+    "description": "A professional laboratory and research website presenting scientific products, company information, and product details clearly.",
+    "technologies": ["WordPress", "Elementor", "WooCommerce"],
+    "image": "https://dev-masud-rana.netlify.app/image/theme/peptiviumlabs.png",
+    "github": "",
+    "live": "",
+    "preview": ""
+  },
+  {
+    "id": 15,
+    "title": "Portfolio X Website",
+    "description": "A bold portfolio experience that combines strong visual presentation, project storytelling, and responsive personal branding.",
+    "technologies": ["React", "Vite", "Tailwind CSS"],
+    "image": "https://dev-masud-rana.netlify.app/image/theme/portfolio-x.png",
+    "github": "",
+    "live": "",
+    "preview": ""
+  },
+  {
+    "id": 16,
+    "title": "Rofiex Business Website",
+    "description": "A modern business website with a confident visual system, structured service content, and responsive presentation.",
+    "technologies": ["WordPress", "Elementor", "PHP"],
+    "image": "https://dev-masud-rana.netlify.app/image/theme/rofiex.png",
+    "github": "",
+    "live": "",
+    "preview": ""
+  },
+  {
+    "id": 17,
+    "title": "TrueHelp Support Website",
+    "description": "A trustworthy support and service website designed to make assistance, resources, and contact options easy to find.",
+    "technologies": ["WordPress", "Elementor", "PHP"],
+    "image": "https://dev-masud-rana.netlify.app/image/theme/truehelp.png",
+    "github": "",
+    "live": "",
+    "preview": ""
+  },
+  {
+    "id": 18,
+    "title": "Wallox Creative Theme",
+    "description": "A creative, image-led theme with strong visual sections, flexible layouts, and a responsive presentation for modern brands.",
+    "technologies": ["WordPress", "Elementor", "PHP"],
+    "image": "https://dev-masud-rana.netlify.app/image/theme/wallox-theme.png",
+    "github": "",
+    "live": "",
+    "preview": ""
+  },
+  {
+    "id": 19,
+    "title": "Webgen Website Builder",
+    "description": "A modern web creation concept focused on simple visual communication, flexible sections, and an approachable user experience.",
+    "technologies": ["React", "Vite", "Tailwind CSS"],
+    "image": "https://dev-masud-rana.netlify.app/image/theme/webgen.png",
+    "github": "",
+    "live": "",
+    "preview": ""
+  },
+  {
+    "id": 20,
+    "title": "WordPress Plugins Collection",
+    "description": "A WordPress plugin-focused project presenting custom tools and extensions with a clear, recognizable product identity.",
+    "technologies": ["WordPress", "PHP", "JavaScript"],
+    "image": "https://dev-masud-rana.netlify.app/image/theme/images.png",
+    "github": "",
+    "live": "",
+    "preview": ""
   }
 ]
